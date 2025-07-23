@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html , body{
+    height: 100%;
+    width: 100%;
+    font-family: "Ubuntu", sans-serif;
+}
+
+.main{
+    height: 100%;
+    width: 100%;
+}
+
+nav{
+    height: 4.5vw;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3vw 3vw;
+    /* background-color: black; */
+}
+.circle{
+    width: 2.5vw;
+    height: 1vw;
+    display: flex;
+    gap: 1px;
+    /* background-color: blueviolet; */
+}
+.gola{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    border-radius: 50%;
+    display: flex;
+    gap: 2px;
+}
+
+.nav-iner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2vw;
+}
+.nav-iner span {
+    color: #c6c3c3;
+    margin-left: 9px;
+}
+.nav-iner h3{
+    font-weight: 350;
+}
+
+.nav2{
+    height: 4vw;
+    width: 100%;
+    /* background-color: blue; */
+    display: flex;
+    padding-left: 40px;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 5vw;
+    
+}
+
+.nav2 h4{
+    font-weight: 400;
+    text-transform: uppercase;
+
+}
+
+.center{
+    width: 100%;
+    height: calc(100% - 10vw);
+}
+.text{
+    width: 100%;
+    height: 50%;
+    display: flex;
+
+    flex-wrap: nowrap;
+    padding-top: 2vw;
+    overflow-x: auto;
+    
+}
+.textinner{
+    
+    flex-shrink: 0;
+    width: 50%;
+    padding: 1vw 2vw;
+
+
+}
+.textinner h1{
+    font-weight: 300;
+    font-size: 6vw;
+    
+}
+
+.text::-webkit-scrollbar {
+    height: 3px;
+    width: 2px; /* Height of the horizontal scrollbar */
+ /* Background color of the scrollbar track */
+}
+
+.text::-webkit-scrollbar-thumb {
+    width: 2px;
+    background-color: orangered; /* Color of the scrollbar thumb */
+    border-radius: 3px; /* Optional: Adds rounded corners to the thumb */
+}
+
+.imgwala{
+    height: 49%;
+    width: 100%;
+}
+.imgwala img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.t{
+    display: flex;
+    gap: 2vw;
+}
+.t h6{
+    font-size: 2vw;
+    font-weight: 300;
+}
+.t h5{
+    font-size: 2vw;
+}
+
